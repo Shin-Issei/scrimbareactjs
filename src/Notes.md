@@ -1,6 +1,6 @@
 # Document Stopping Points.
 
-https://www.youtube.com/watch?v=x4rFhThSX04 @ 43:54
+https://www.youtube.com/watch?v=x4rFhThSX04 @ 1:24:59
 
 # Session 1 Notes
 
@@ -14,3 +14,7 @@ There is little more that irks me than irritating people who are correct.
 At least this is easy to follow without that stupid scrimba site.
 I almost want to take it down on the name alone.
 
+# Session 2 Notes
+
+It only took a fucking hour and a half but I finally.. *finally* learned something that I didn't know before. <Fragment/> allows you to avoid having unnecessary <divs> nested within the root node. I must have wondered about that at some point but I definitely didn't know about that until now.
+Just with that this video has justified itself. I'll do what ever it says.
