@@ -1,22 +1,19 @@
-// It's really not necessary to rewrite all of this from scratch everytime since generating these things is more important but what ever.
+// Why the hell am I making and remaking the same bullshit over and over again?????
 
 import { createRoot } from "react-dom/client";
-import Component from "./newComponent";
+import reactLogo from "../src/react-logo.png"
+import "../src/index.css"
 const root = createRoot(document.getElementById("root"));
-function InLineComponent(){
-    return (
-        <div>
-            An inline component seems obvious now...
-            Hello from inline component.
-        </div>
-    )
-}
-
 root.render(
-    <>
-    <h1>{"I wrote all this out by hand AGIAN! >:("}</h1>
-    <p>Well that was easier than I thought.</p>
-    <Component/>
-    <InLineComponent/>
-    </>
+    <div>
+        <img id="logo" src={reactLogo}></img>
+        <h1>Fun facts about React</h1>
+        <ul>
+            <li>Was First realeased in 2013</li>
+            <li>Was originally created by Jordan Walke</li>
+            <li>Has well over 100k stars on GitHub</li>
+            <li>Maintained by Meta</li>
+            <li>Powers a lot of apps</li>
+        </ul>
+    </div>
 )
